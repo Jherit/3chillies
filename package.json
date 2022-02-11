@@ -1,0 +1,31 @@
+{
+  "name": "3chillies",
+  "version": "1.0.0",
+  "description": "Code test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jherit/3chillies.git"
+  },
+  "author": "John Heritage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jherit/3chillies/issues"
+  },
+  "homepage": "https://github.com/Jherit/3chillies#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3"
+  },
+  "dependencies": {
+    "postcss": "^8.4.5"
+  }
+}
