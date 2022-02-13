@@ -1,8 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 /* Colors 
 ****************************/
-/* @import "modules/_global.css";
-@import "modules/_typography.css";
-@import "modules/_header.css";
-@import "modules/_content.css";
-@import "modules/_motion.css"; */
+/* Widths
+*****************************/
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1{
+    font-family: 'Myriad', 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size:24px;
+    line-height:36px;
+    margin:0px 0px 40px;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+h2{
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #222222;
+    font-size:22px;
+    line-height:18px;
+    font-weight:600;
+    text-transform: capitalize;
+}
+p {
+    font-size:16px;
+    line-height:26px;
+    color: #848484;
+}
+/*@import "modules/_header.css";*/
+.hero {
+    border-top:5px solid #2ecc71;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+}
+.hero__container {
+        max-width:1180px;
+        min-height:600px;
+        margin:0px auto;
+        padding:0px 110px 0px 80px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+.hero__textContent {
+        margin: auto 40px auto 0px;
+    }
+.hero__logolink {
+        padding:6px 100px 6px 6px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgb(255, 255, 255), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.0));
+        display: inline-block;
+        max-width:300px;
+        margin:0px 0px 40px
+    }
+.usps {
+    background-color:white;
+
+    
+}
+.usps__container {
+        max-width:1180px;
+        padding:60px 0px;
+        margin:0px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+.usps__card {
+        width:30%;
+        text-align: center;
+        min-height:236px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+.badge_button {
+    border-radius:50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:50px;
+    height:50px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right:16px;
+}
+.badge_button img{
+        opacity:.5;
+    }
+.badge_button:hover {
+        background-color: #2ecc71;
+    }
+.badge_button:hover img{
+            opacity:1;
+        }
+.big_badge {
+    background-color: #2ecc71;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+/*@import "modules/_motion.css"; */

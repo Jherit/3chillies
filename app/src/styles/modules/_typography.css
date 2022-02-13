@@ -1,0 +1,27 @@
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Myriad', 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: $textWhite;
+    font-size:24px;
+    line-height:36px;
+    margin:0px 0px 40px;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+
+h2{
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: $textBlack;
+    font-size:22px;
+    line-height:18px;
+    font-weight:600;
+    text-transform: capitalize;
+}
+
+p {
+    font-size:16px;
+    line-height:26px;
+    color: $textGrey;
+}
