@@ -33,7 +33,7 @@
 
     &__container {
         max-width:$desktopWidth;
-        padding:60px 0px;
+        padding:$sectionPaddingDT;
         margin:0px auto;
         display: flex;
         flex-direction: row;
@@ -48,7 +48,140 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+
+        h2 {
+            margin:0px 0px;
+        }
+    }
+}
+
+.newsletter {
+    background-color: $lightGrey;
+
+    &__container{
+        padding:$sectionPaddingDT;
+        max-width:$desktopWidth;
+        margin:0px auto;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
     }
 
-    
+    &__form{
+        max-width:50%;
+
+        form {
+            display: flex;
+            justify-content: space-between;
+            max-width:440px;
+            margin-top:36px;
+      
+            label {
+              border: 0;
+              clip: rect(0 0 0 0);
+              height: 1px;
+              margin: -1px;
+              overflow: hidden;
+              padding: 0;
+              position: absolute;
+              width: 1px;
+            }
+      
+            input {
+              border-radius: 24px;
+              padding: 14px 20px 15px;
+              border: 1px solid #c8c8c8;
+              background-color: #fff;
+      
+              &[type="email"] {
+                width: 70%;
+                color: $textGrey;
+                transition: 0.4s;
+                border-radius:10px 0px 0px 10px;
+      
+                &:hover, &:focus, &:active{
+                  background-color: rgba(212, 254, 217, 0.9);
+                  border: 1px solid #c8c8c8;
+                }
+              }
+      
+              &[type="submit"] {
+                width:30%;
+                background-color: $brightGreen;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+                transition: 0.4s;
+                border: 1px solid $brightGreen;
+                border-radius:0px 10px 10px 0px;
+
+      
+                &:hover, &:focus, &:active{
+                  background-color: $textBlack;
+                  border: 1px solid $textBlack;
+                }
+              }
+            }
+          }
+    }
+
+    &__video {
+        max-width:500px;
+
+        video{
+            border-radius:6px;
+            width:500px;
+        }    
+    }
+}
+
+.contact {
+    &__container {
+        max-width: &desktopWidth;
+        padding:$sectionPaddingDT;
+        margin:0px auto;
+        text-align:center;
+    }
+
+    &__socialiconslist {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        list-style-type:none;
+        width:50%;
+        margin:26px auto 50px;
+
+        li {
+            display:flex; 
+
+            .badge_button{
+                margin:0px 6px;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: $lightGrey;
+
+    &__container {
+        max-width: $desktopWidth;
+        padding: $sectionPaddingDT;
+        margin:0px auto;
+        text-align:center;
+    }
+
+    &__list {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        list-style-type:none;
+        width:100%;
+
+        a {
+            color:$textGrey;
+            margin:0px 20px;
+            text-decoration:none;
+        }
+    }
 }

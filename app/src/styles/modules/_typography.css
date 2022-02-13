@@ -18,10 +18,24 @@ h2{
     line-height:18px;
     font-weight:600;
     text-transform: capitalize;
+    margin:0px 0px 26px 0px;
+}
+
+h3{
+    font-family: 'Myriad', 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: $textBlack;
+    font-size:24px;
+    line-height:24px;
+    margin:0px 0px 20px;
 }
 
 p {
     font-size:16px;
     line-height:26px;
     color: $textGrey;
+}
+
+input {
+    font-size:16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

@@ -8,7 +8,9 @@ $textGrey: #848484;
 $textWhite: #ffffff;
 $textBlack: #222222;
 
-/* Widths
+/* Widths and units
 *****************************/
 
 $desktopWidth: 1180px;
+
+$sectionPaddingDT: 60px 0px;
