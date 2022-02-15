@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3Chillies - Code Test - John Heritage</title>
     <link rel="stylesheet" href="./app/dist/styles/styles.css">
-
+    <style>
+        .hero { background-image:url('./app/dist/images/3chillies_bg.jpg'); }
+        @media (max-width: 420px) {
+            .hero { background-image:url('./app/dist/images/3chillies_bg_mobile.jpg'); }
+        }
+    </style>
 </head>
 <body>
-    <section class="hero" style="background-image:url('./app/dist/images/3chillies_bg.jpg');" >
+    <section class="hero">
         <div class="hero__container">
             <div class="hero__textContent">
                 <a href="/" class="hero__logolink" title="3 Chillies" ><img src="./app/dist/images/3chillies-logo.png" alt="3 Chillies" width="190" height="55" /></a> 
@@ -64,12 +69,12 @@
             <h3>Say Hi & Get in Touch</h3>
             <p>Unit 6, Beacontree Plaza, Gillette Way, Reading, Berkshire, RG2 0BS</p>
             <ul class="contact__socialiconslist">
-                <li><a class="badge_button" href="#"><img src="./app/dist/images/twitter.svg" alt="Twitter" width="20" height="20"></a></li>
-                <li><a class="badge_button" href="#"><img src="./app/dist/images/F_icon_reversed.svg" alt="facebook" width="20" height="20"></a></li>
-                <li><a class="badge_button" href="#"><img src="./app/dist/images/pinterest-icon.svg" alt="Pinterest" width="20" height="20"></a></li>
-                <li><a class="badge_button" href="#"><img src="./app/dist/images/instagram-icon.svg" alt="Instagram" width="20" height="20"></a></li>
-                <li><a class="badge_button" href="#"><img src="./app/dist/images/linkedin-icon.svg" alt="Linkedin" width="20" height="20"></a></li>
-                <li><a class="badge_button" href="#"><img src="./app/dist/images/YouTube_icon.svg" alt="YouTube" width="20" height="20"></a></li>
+                <li><a class="badge_button social" href="#"><img src="./app/dist/images/twitter.svg" alt="Twitter" width="20" height="20"></a></li>
+                <li><a class="badge_button social" href="#"><img src="./app/dist/images/facebook-f.svg" alt="facebook" width="20" height="20"></a></li>
+                <li><a class="badge_button social" href="#"><img src="./app/dist/images/pinterest-icon.svg" alt="Pinterest" width="20" height="20"></a></li>
+                <li><a class="badge_button social" href="#"><img src="./app/dist/images/instagram-icon.svg" alt="Instagram" width="20" height="20"></a></li>
+                <li><a class="badge_button social" href="#"><img src="./app/dist/images/linkedin-icon.svg" alt="Linkedin" width="20" height="20"></a></li>
+                <li><a class="badge_button social" href="#"><img src="./app/dist/images/you-tube-icon.svg" alt="YouTube" width="20" height="20"></a></li>
             </ul>
         </div>
     </section>

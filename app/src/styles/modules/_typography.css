@@ -15,7 +15,8 @@ h2{
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: $textBlack;
     font-size:22px;
-    line-height:18px;
+    /* line-height:18px; Set at 18px in the PSD file !!!! */
+    line-height:30px;
     font-weight:600;
     text-transform: capitalize;
     margin:0px 0px 26px 0px;
