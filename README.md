@@ -8,7 +8,7 @@ Should you wish to download and run this page locally you might need some kind o
 
 I used gulp and postCSS to do some light CSS tooling. With that in mind you will need to have node, npm and maybe npx installed on your compupter if you wish to make any changes once you've cloned the repo. 
 
-Once installed, cd to the LittleLoft directory and do a:
+Once installed, cd to the 3chillies directory and do a:
 `npm install`
 to load the required node modules (based on package.json and package-lock.json).
 
