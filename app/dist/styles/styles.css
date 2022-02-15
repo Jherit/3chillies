@@ -276,6 +276,7 @@ input {
   .contact {
     padding-top: 20px;
   }
+    
     .contact__container {
       max-width: 1180px;
       padding: 60px 20px;
@@ -329,26 +330,16 @@ input {
     padding: 20px 0px;
   }
 
-    .newsletter__container {
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 40px 20px;
-    }
 
     .newsletter__form {
-      max-width: 100%;
-      text-align: center;
       padding: 10px;
     }
 
       .newsletter__form form {
-        margin: 36px auto 10px;
         width: 100%;
       }
 
     .newsletter__video {
-      max-width: unset;
-      text-align: center;
       padding: 10px;
     }
 

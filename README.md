@@ -1,7 +1,7 @@
 # 3chillies
 A single page built in HTML and CSS with some support for various screen sizes & devices via media queries.
 
-
+The page can be seen at: [https://jherit.github.io/3chillies/](https://jherit.github.io/3chillies/)
 
 ## Installation 
 Should you wish to download and run this page locally you might need some kind of [local server](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb). I would normally make **dist** my root but in this instance I've moved index.html up a few levels to make GitHub hosting easier. You may be able to load the local index.html in your browser without a server, it may just work. 
