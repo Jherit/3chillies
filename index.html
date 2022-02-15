@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="3Chillies - Code Test - John Heritage">
     <title>3Chillies - Code Test - John Heritage</title>
+    
+    <!-- Might normally host web fonts locally and preload to decrease CLS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./app/dist/styles/styles.css">
+
+    <!-- Load big elements without the need for CSS to load first -->
     <style>
         .hero { background-image:url('./app/dist/images/3chillies_bg.jpg'); }
         @media (max-width: 420px) {
-            .hero { background-image:url('./app/dist/images/3chillies_bg_mobile.jpg'); }
+            .hero { background-image:url('./app/dist/images/3chillies_bg_mobile_v2.jpg'); }
         }
     </style>
 </head>
