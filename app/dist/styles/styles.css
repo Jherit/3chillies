@@ -8,400 +8,408 @@
 	margin: 0;
     padding: 0;
 }
-*{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1{
-    font-family: 'Myriad', 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #ffffff;
-    font-size:24px;
-    line-height:36px;
-    margin:0px 0px 40px;
-    text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+h1 {
+  font-family: "Myriad", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0px 0px 40px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
-h2{
-    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #222222;
-    font-size:22px;
-    /* line-height:18px; Set at 18px in the PSD file !!!! */
-    line-height:30px;
-    font-weight:600;
-    text-transform: capitalize;
-    margin:0px 0px 26px 0px;
+h2 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222222;
+  font-size: 22px;
+  /* line-height:18px; Set at 18px in the PSD file !!!! */
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0px 0px 26px 0px;
 }
-h3{
-    font-family: 'Myriad', 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #222222;
-    font-size:24px;
-    line-height:24px;
-    margin:0px 0px 20px;
+h3 {
+  font-family: "Myriad", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222222;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0px 0px 20px;
 }
 p {
-    font-size:16px;
-    line-height:26px;
-    color: #848484;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
 }
 input {
-    font-size:16px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/*@import "modules/_header.css";*/
 .hero {
-    border-top:5px solid #2ecc71;
-    background-repeat:no-repeat;
-    background-position:50% 50%;
-    background-size:cover;
+  border-top: 5px solid #2ecc71;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .hero__container {
-        max-width:1180px;
-        min-height:600px;
-        margin:0px auto;
-        padding:0px 110px 0px 80px;
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
+    max-width: 1180px;
+    min-height: 600px;
+    margin: 0px auto;
+    padding: 0px 110px 0px 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 .hero__textContent {
-        margin: auto 40px auto 0px;
-    }
+    margin: auto 40px auto 0px;
+  }
 .hero__logolink {
-        padding:6px 100px 6px 6px;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgb(255, 255, 255), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.0));
-        display: inline-block;
-        max-width:300px;
-        margin:0px 0px 40px
-    }
+    padding: 6px 100px 6px 6px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.6),
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0)
+    );
+    display: inline-block;
+    max-width: 300px;
+    margin: 0px 0px 40px;
+  }
 .usps {
-    background-color:white;
+  background-color: white;
 }
 .usps__container {
-        max-width:1180px;
-        padding:60px 0px;
-        margin:0px auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    max-width: 1180px;
+    padding: 60px 0px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 .usps__card {
-        width:30%;
-        text-align: center;
-        min-height:236px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
+    width: 30%;
+    text-align: center;
+    min-height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 .usps__card h2 {
-            margin:0px 0px;
-        }
+      margin: 0px 0px;
+    }
 .newsletter {
-    background-color: #d4d4d4;
+  background-color: #d4d4d4;
 }
-.newsletter__container{
-        padding:60px 0px;
-        max-width:1180px;
-        margin:0px auto;
-        display:flex;
-        flex-direction:row;
-        justify-content: space-between;
-    }
-.newsletter__form{
-        max-width:50%;
-    }
+.newsletter__container {
+    padding: 60px 0px;
+    max-width: 1180px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.newsletter__form {
+    max-width: 50%;
+  }
 .newsletter__form form {
-            display: flex;
-            justify-content: space-between;
-            max-width:440px;
-            margin-top:36px;
-          }
+      display: flex;
+      justify-content: space-between;
+      max-width: 440px;
+      margin-top: 36px;
+    }
 .newsletter__form form label {
-              border: 0;
-              clip: rect(0 0 0 0);
-              height: 1px;
-              margin: -1px;
-              overflow: hidden;
-              padding: 0;
-              position: absolute;
-              width: 1px;
-            }
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
 .newsletter__form form input {
-              border-radius: 24px;
-              padding: 14px 20px 15px;
-              border: 1px solid #c8c8c8;
-              background-color: #fff;
-            }
+        border-radius: 24px;
+        padding: 14px 20px 15px;
+        border: 1px solid #c8c8c8;
+        background-color: #fff;
+      }
 .newsletter__form form input[type="email"] {
-                width: 70%;
-                color: #848484;
-                transition: 0.4s;
-                border-radius:10px 0px 0px 10px;
-              }
-.newsletter__form form input[type="email"]:hover, .newsletter__form form input[type="email"]:focus, .newsletter__form form input[type="email"]:active{
-                  background-color: rgba(212, 254, 217, 0.9);
-                  border: 1px solid #c8c8c8;
-                }
+          width: 70%;
+          color: #848484;
+          transition: 0.4s;
+          border-radius: 10px 0px 0px 10px;
+        }
+.newsletter__form form input[type="email"]:hover,
+          .newsletter__form form input[type="email"]:focus,
+          .newsletter__form form input[type="email"]:active {
+            background-color: rgba(212, 254, 217, 0.9);
+            border: 1px solid #c8c8c8;
+          }
 .newsletter__form form input[type="submit"] {
-                width:30%;
-                background-color: #2ecc71;
-                color: #fff;
-                text-align: center;
-                cursor: pointer;
-                transition: 0.4s;
-                border: 1px solid #2ecc71;
-                border-radius:0px 10px 10px 0px;
-              }
-.newsletter__form form input[type="submit"]:hover, .newsletter__form form input[type="submit"]:focus, .newsletter__form form input[type="submit"]:active{
-                  background-color: #222222;
-                  border: 1px solid #222222;
-                }
+          width: 30%;
+          background-color: #2ecc71;
+          color: #fff;
+          text-align: center;
+          cursor: pointer;
+          transition: 0.4s;
+          border: 1px solid #2ecc71;
+          border-radius: 0px 10px 10px 0px;
+        }
+.newsletter__form form input[type="submit"]:hover,
+          .newsletter__form form input[type="submit"]:focus,
+          .newsletter__form form input[type="submit"]:active {
+            background-color: #222222;
+            border: 1px solid #222222;
+          }
 .newsletter__video {
-        max-width:500px;    
+    max-width: 500px;
+  }
+.newsletter__video video {
+      border-radius: 6px;
+      width: 500px;
     }
-.newsletter__video video{
-            border-radius:6px;
-            width:500px;
-        }
 .contact__container {
-        max-width: 1180px;
-        padding:60px 0px;
-        margin:0px auto;
-        text-align:center;
-    }
+    max-width: 1180px;
+    padding: 60px 0px;
+    margin: 0px auto;
+    text-align: center;
+  }
 .contact__socialiconslist {
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        list-style-type:none;
-        width:50%;
-        margin:26px auto 50px;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 50%;
+    margin: 26px auto 50px;
+  }
 .contact__socialiconslist li {
-            display:flex;
-        }
-.contact__socialiconslist li .badge_button{
-                margin:0px 6px;
-            }
+      display: flex;
+    }
+.contact__socialiconslist li .badge_button {
+        margin: 0px 6px;
+      }
 .footer {
-    background-color: #d4d4d4;
+  background-color: #d4d4d4;
 }
 .footer__container {
-        max-width: 1180px;
-        padding: 60px 0px;
-        margin:0px auto;
-        text-align:center;
-    }
+    max-width: 1180px;
+    padding: 60px 0px;
+    margin: 0px auto;
+    text-align: center;
+  }
 .footer__list {
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        list-style-type:none;
-        width:100%;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+  }
 .footer__list li a {
-                color:#848484;
-                margin:0px 20px 20px;
-                text-decoration:none;
-            }
+        color: #848484;
+        margin: 0px 20px 20px;
+        text-decoration: none;
+      }
 .footer__list li a:hover {
-                    text-decoration:underline;
-                }
-/* Lanscape iPad */
-@media (max-width:1024px) {
-        .usps__container, .newsletter__container, .contact__container, .footer__container {
-            padding:60px 20px;
+          text-decoration: underline;
         }
+/* Lanscape iPad */
+@media (max-width: 1024px) {
+    .usps__container, .newsletter__container, .contact__container, .footer__container {
+      padding: 60px 20px;
+    }
 }
 /* Potrait iPad */
-@media (max-width:768px) {
-        .hero__container {
-            min-height:560px;
-            padding:0px 30px 0px 30px;
-        }
-
-        .hero__textContent {
-            width:55%;
-            margin: auto 10px auto 0px;
-        }
-
-        .hero__image {
-            width:45%;
-            height:auto;
-        }
-        .usps__card {
-            min-height:280px;
-        }
-
-            .usps__card h2 {
-                line-height:26px;
-            }
-
-    .newsletter {
-        padding-bottom:20px;
+@media (max-width: 768px) {
+    .hero__container {
+      min-height: 560px;
+      padding: 0px 30px 0px 30px;
     }
 
-        .newsletter__container{
-            flex-direction:column;
-            justify-content:space-between;
-            padding:40px 20px;
-        }
-    
-        .newsletter__form{
-            max-width:100%;
-            text-align: center;
-            padding:40px 20px;
-        }
-    
-            .newsletter__form form {
-                margin:36px auto 10px;
-              }
-    
-        .newsletter__video {
-            max-width:unset;
-            text-align: center;    
-        }
-    
-            .newsletter__video video{
-                width:85%;
-            }
-    
-    .contact {
-        padding-top:20px;
+    .hero__textContent {
+      width: 55%;
+      margin: auto 10px auto 0px;
     }
-        .contact__container {
-            max-width: 1180px;
-            padding:60px 20px;
+
+    .hero__image {
+      width: 45%;
+      height: auto;
+    }
+    .usps__card {
+      min-height: 280px;
+    }
+
+      .usps__card h2 {
+        line-height: 26px;
+      }
+
+  .newsletter {
+    padding-bottom: 20px;
+  }
+
+    .newsletter__container {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px 20px;
+    }
+
+    .newsletter__form {
+      max-width: 100%;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+      .newsletter__form form {
+        margin: 36px auto 10px;
+      }
+
+    .newsletter__video {
+      max-width: unset;
+      text-align: center;
+    }
+
+      .newsletter__video video {
+        width: 85%;
+      }
+
+  .contact {
+    padding-top: 20px;
+  }
+    .contact__container {
+      max-width: 1180px;
+      padding: 60px 20px;
+    }
+
+    .contact__socialiconslist {
+      width: 60%;
+      margin: 26px auto 30px;
+    }
+        .contact__socialiconslist li .badge_button {
+          margin: 0px 10px;
         }
-    
-        .contact__socialiconslist {
-            width:60%;
-            margin:26px auto 30px;
-        }
-                .contact__socialiconslist li .badge_button{
-                    margin:0px 10px;
-                }
 }
 /* Mobile */
-@media (max-width:420px) {
-        .hero__container {
-            min-height:unset;
-            padding:60px 20px 30px;
-            flex-direction: column;
-        }
-
-        .hero__textContent {
-            width:100%;
-            margin: 20px 0px;
-        }
-
-        .hero__image {
-            border: 0;
-              clip: rect(0 0 0 0);
-              height: 1px;
-              margin: -1px;
-              overflow: hidden;
-              padding: 0;
-              position: absolute;
-              width: 1px;
-        }    
-        .usps__container {
-            margin:0px auto;
-            flex-direction: column;
-        }
-    
-        .usps__card {
-            width:100%;
-            min-height: 268px;
-            padding: 10px 20px; 
-            margin-bottom:20px;
-            flex-direction: column;
-        }
-
-    .newsletter {
-        padding:20px 0px;
+@media (max-width: 420px) {
+    .hero__container {
+      min-height: unset;
+      padding: 60px 20px 30px;
+      flex-direction: column;
     }
 
-        .newsletter__container{
-            flex-direction:column;
-            justify-content:space-between;
-            padding:40px 20px;
-        }
-    
-        .newsletter__form{
-            max-width:100%;
-            text-align: center;
-            padding:10px;
-        }
-    
-            .newsletter__form form {
-                margin:36px auto 10px;
-                width:100%;
-              }
-    
-        .newsletter__video {
-            max-width:unset;
-            text-align: center;
-            padding:10px;    
-        }
+    .hero__textContent {
+      width: 100%;
+      margin: 20px 0px;
+    }
 
-            .newsletter__video video{
-                width:100%;
-            }
-        .contact__socialiconslist {
-            width:100%;
-            flex-wrap: wrap;
+    .hero__image {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    .usps__container {
+      margin: 0px auto;
+      flex-direction: column;
+    }
+
+    .usps__card {
+      width: 100%;
+      min-height: 268px;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      flex-direction: column;
+    }
+
+  .newsletter {
+    padding: 20px 0px;
+  }
+
+    .newsletter__container {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px 20px;
+    }
+
+    .newsletter__form {
+      max-width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+
+      .newsletter__form form {
+        margin: 36px auto 10px;
+        width: 100%;
+      }
+
+    .newsletter__video {
+      max-width: unset;
+      text-align: center;
+      padding: 10px;
+    }
+
+      .newsletter__video video {
+        width: 100%;
+      }
+    .contact__socialiconslist {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+        .contact__socialiconslist li .badge_button {
+          margin: 10px 10px;
         }
-                .contact__socialiconslist li .badge_button{
-                    margin:10px 10px;
-                }
-    
-        .footer__list {
-            flex-wrap: wrap;
+    .footer__list {
+      flex-wrap: wrap;
+    }
+
+      .footer__list li {
+        margin: 0px 0px 20px;
+      }
+
+        .footer__list li a {
+          margin: 0px 20px 20px;
         }
-
-            .footer__list li {
-                margin:0px 0px 20px;
-            }
-
-                .footer__list li a {
-                    margin:0px 20px 20px;
-                }
-
 }
 .badge_button {
-    border-radius:50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    width:50px;
-    height:50px;
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-right:16px;
-    transition: 0.4s;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16px;
+  transition: 0.4s;
 }
 .badge_button.social {
-        background-color: #d4d4d4;
+    background-color: #d4d4d4;
+  }
+.badge_button.social img {
+      opacity: 1;
     }
-.badge_button.social img{
-            opacity:1;
-        }
-.badge_button img{
-        opacity:.5;
-    }
-.badge_button:hover, .badge_button:active, .badge_button:focus {
-        background-color: #2ecc71;
-    }
-.badge_button:hover img,.badge_button:active img,.badge_button:focus img{
-            opacity:1;
-        }
-.big_badge {
+.badge_button img {
+    opacity: 0.5;
+  }
+.badge_button:hover,
+  .badge_button:active,
+  .badge_button:focus {
     background-color: #2ecc71;
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width:100px;
-    height:100px;
-    border-radius:50%;
+  }
+.badge_button:hover img, .badge_button:active img, .badge_button:focus img {
+      opacity: 1;
+    }
+.big_badge {
+  background-color: #2ecc71;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
-/*@import "modules/_motion.css"; */

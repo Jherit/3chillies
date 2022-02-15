@@ -1,385 +1,391 @@
 .hero {
-    border-top:5px solid $brightGreen;
-    background-repeat:no-repeat;
-    background-position:50% 50%;
-    background-size:cover;
+  border-top: 5px solid $brightGreen;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 
-    &__container {
-        max-width:$desktopWidth;
-        min-height:600px;
-        margin:0px auto;
-        padding:0px 110px 0px 80px;
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
+  &__container {
+    max-width: $desktopWidth;
+    min-height: 600px;
+    margin: 0px auto;
+    padding: 0px 110px 0px 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 
-    &__textContent {
-        margin: auto 40px auto 0px;
-    }
+  &__textContent {
+    margin: auto 40px auto 0px;
+  }
 
-    &__logolink {
-        padding:6px 100px 6px 6px;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgb(255, 255, 255), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.0));
-        display: inline-block;
-        max-width:300px;
-        margin:0px 0px 40px
-    }
+  &__logolink {
+    padding: 6px 100px 6px 6px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.6),
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0)
+    );
+    display: inline-block;
+    max-width: 300px;
+    margin: 0px 0px 40px;
+  }
 }
 
 .usps {
-    background-color:white;
+  background-color: white;
 
-    &__container {
-        max-width:$desktopWidth;
-        padding:$sectionPaddingDT;
-        margin:0px auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+  &__container {
+    max-width: $desktopWidth;
+    padding: $sectionPaddingDT;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: 30%;
+    text-align: center;
+    min-height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      margin: 0px 0px;
     }
-
-    &__card {
-        width:30%;
-        text-align: center;
-        min-height:236px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-
-        h2 {
-            margin:0px 0px;
-        }
-    }
+  }
 }
 
 .newsletter {
-    background-color: $lightGrey;
+  background-color: $lightGrey;
 
-    &__container{
-        padding:$sectionPaddingDT;
-        max-width:$desktopWidth;
-        margin:0px auto;
-        display:flex;
-        flex-direction:row;
-        justify-content: space-between;
-    }
+  &__container {
+    padding: $sectionPaddingDT;
+    max-width: $desktopWidth;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    &__form{
-        max-width:50%;
+  &__form {
+    max-width: 50%;
 
-        form {
-            display: flex;
-            justify-content: space-between;
-            max-width:440px;
-            margin-top:36px;
-      
-            label {
-              border: 0;
-              clip: rect(0 0 0 0);
-              height: 1px;
-              margin: -1px;
-              overflow: hidden;
-              padding: 0;
-              position: absolute;
-              width: 1px;
-            }
-      
-            input {
-              border-radius: 24px;
-              padding: 14px 20px 15px;
-              border: 1px solid #c8c8c8;
-              background-color: #fff;
-      
-              &[type="email"] {
-                width: 70%;
-                color: $textGrey;
-                transition: 0.4s;
-                border-radius:10px 0px 0px 10px;
-      
-                &:hover, &:focus, &:active{
-                  background-color: rgba(212, 254, 217, 0.9);
-                  border: 1px solid #c8c8c8;
-                }
-              }
-      
-              &[type="submit"] {
-                width:30%;
-                background-color: $brightGreen;
-                color: #fff;
-                text-align: center;
-                cursor: pointer;
-                transition: 0.4s;
-                border: 1px solid $brightGreen;
-                border-radius:0px 10px 10px 0px;
+    form {
+      display: flex;
+      justify-content: space-between;
+      max-width: 440px;
+      margin-top: 36px;
 
-      
-                &:hover, &:focus, &:active{
-                  background-color: $textBlack;
-                  border: 1px solid $textBlack;
-                }
-              }
-            }
+      label {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+
+      input {
+        border-radius: 24px;
+        padding: 14px 20px 15px;
+        border: 1px solid #c8c8c8;
+        background-color: #fff;
+
+        &[type="email"] {
+          width: 70%;
+          color: $textGrey;
+          transition: 0.4s;
+          border-radius: 10px 0px 0px 10px;
+
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: rgba(212, 254, 217, 0.9);
+            border: 1px solid #c8c8c8;
           }
-    }
+        }
 
-    &__video {
-        max-width:500px;
+        &[type="submit"] {
+          width: 30%;
+          background-color: $brightGreen;
+          color: #fff;
+          text-align: center;
+          cursor: pointer;
+          transition: 0.4s;
+          border: 1px solid $brightGreen;
+          border-radius: 0px 10px 10px 0px;
 
-        video{
-            border-radius:6px;
-            width:500px;
-        }    
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: $textBlack;
+            border: 1px solid $textBlack;
+          }
+        }
+      }
     }
+  }
+
+  &__video {
+    max-width: 500px;
+
+    video {
+      border-radius: 6px;
+      width: 500px;
+    }
+  }
 }
 
 .contact {
-    &__container {
-        max-width: $desktopWidth;
-        padding:$sectionPaddingDT;
-        margin:0px auto;
-        text-align:center;
+  &__container {
+    max-width: $desktopWidth;
+    padding: $sectionPaddingDT;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  &__socialiconslist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 50%;
+    margin: 26px auto 50px;
+
+    li {
+      display: flex;
+
+      .badge_button {
+        margin: 0px 6px;
+      }
     }
-
-    &__socialiconslist {
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        list-style-type:none;
-        width:50%;
-        margin:26px auto 50px;
-
-        li {
-            display:flex; 
-
-            .badge_button{
-                margin:0px 6px;
-            }
-        }
-    }
+  }
 }
 
 .footer {
-    background-color: $lightGrey;
+  background-color: $lightGrey;
 
-    &__container {
-        max-width: $desktopWidth;
-        padding: $sectionPaddingDT;
-        margin:0px auto;
-        text-align:center;
-    }
+  &__container {
+    max-width: $desktopWidth;
+    padding: $sectionPaddingDT;
+    margin: 0px auto;
+    text-align: center;
+  }
 
-    &__list {
-        display:flex;
-        flex-direction:row;
-        justify-content: center;
-        list-style-type:none;
-        width:100%;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
 
-        li {
-            a {
-                color:$textGrey;
-                margin:0px 20px 20px;
-                text-decoration:none;
+    li {
+      a {
+        color: $textGrey;
+        margin: 0px 20px 20px;
+        text-decoration: none;
 
-                &:hover {
-                    text-decoration:underline;
-                }
-            }
+        &:hover {
+          text-decoration: underline;
         }
+      }
     }
+  }
 }
 
-
 /* Lanscape iPad */
-@media (max-width:1024px) {
-    .usps, .newsletter, .contact, .footer {
-        &__container {
-            padding:$sectionPaddingLTablet;
-        }
+@media (max-width: 1024px) {
+  .usps,
+  .newsletter,
+  .contact,
+  .footer {
+    &__container {
+      padding: $sectionPaddingLTablet;
     }
+  }
 }
 
 /* Potrait iPad */
-@media (max-width:768px) {
-
-    .hero {
-        &__container {
-            min-height:560px;
-            padding:0px 30px 0px 30px;
-        }
-
-        &__textContent {
-            width:55%;
-            margin: auto 10px auto 0px;
-        }
-
-        &__image {
-            width:45%;
-            height:auto;
-        }
+@media (max-width: 768px) {
+  .hero {
+    &__container {
+      min-height: 560px;
+      padding: 0px 30px 0px 30px;
     }
 
-    .usps {
-        &__card {
-            min-height:280px;
-
-            h2 {
-                line-height:26px;
-            }
-        }
+    &__textContent {
+      width: 55%;
+      margin: auto 10px auto 0px;
     }
 
-    .newsletter {
-        padding-bottom:20px;
+    &__image {
+      width: 45%;
+      height: auto;
+    }
+  }
 
-        &__container{
-            flex-direction:column;
-            justify-content:space-between;
-            padding:$sectionPaddingPTablet;
-        }
-    
-        &__form{
-            max-width:100%;
-            text-align: center;
-            padding:$sectionPaddingPTablet;
-    
-            form {
-                margin:36px auto 10px;
-              }
-        }
-    
-        &__video {
-            max-width:unset;
-            text-align: center;
-    
-            video{
-                width:85%;
-            }    
-        }
+  .usps {
+    &__card {
+      min-height: 280px;
+
+      h2 {
+        line-height: 26px;
+      }
     }
-    
-    .contact {
-        padding-top:20px;
-        &__container {
-            max-width: $desktopWidth;
-            padding:$sectionPaddingLTablet;
-        }
-    
-        &__socialiconslist {
-            width:60%;
-            margin:26px auto 30px;
-    
-            li {
-                .badge_button{
-                    margin:0px 10px;
-                }
-            }
-        }
+  }
+
+  .newsletter {
+    padding-bottom: 20px;
+
+    &__container {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: $sectionPaddingPTablet;
     }
+
+    &__form {
+      max-width: 100%;
+      text-align: center;
+      padding: $sectionPaddingPTablet;
+
+      form {
+        margin: 36px auto 10px;
+      }
+    }
+
+    &__video {
+      max-width: unset;
+      text-align: center;
+
+      video {
+        width: 85%;
+      }
+    }
+  }
+
+  .contact {
+    padding-top: 20px;
+    &__container {
+      max-width: $desktopWidth;
+      padding: $sectionPaddingLTablet;
+    }
+
+    &__socialiconslist {
+      width: 60%;
+      margin: 26px auto 30px;
+
+      li {
+        .badge_button {
+          margin: 0px 10px;
+        }
+      }
+    }
+  }
 }
 
 /* Mobile */
-@media (max-width:420px) {
-
-    .hero {
-        &__container {
-            min-height:unset;
-            padding:60px 20px 30px;
-            flex-direction: column;
-        }
-
-        &__textContent {
-            width:100%;
-            margin: 20px 0px;
-        }
-
-        &__image {
-            border: 0;
-              clip: rect(0 0 0 0);
-              height: 1px;
-              margin: -1px;
-              overflow: hidden;
-              padding: 0;
-              position: absolute;
-              width: 1px;
-        }
+@media (max-width: 420px) {
+  .hero {
+    &__container {
+      min-height: unset;
+      padding: 60px 20px 30px;
+      flex-direction: column;
     }
 
-    .usps {    
-        &__container {
-            margin:0px auto;
-            flex-direction: column;
-        }
-    
-        &__card {
-            width:100%;
-            min-height: 268px;
-            padding: 10px 20px; 
-            margin-bottom:20px;
-            flex-direction: column;
-        }
+    &__textContent {
+      width: 100%;
+      margin: 20px 0px;
     }
 
-    .newsletter {
-        padding:20px 0px;
+    &__image {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  }
 
-        &__container{
-            flex-direction:column;
-            justify-content:space-between;
-            padding:$sectionPaddingPTablet;
-        }
-    
-        &__form{
-            max-width:100%;
-            text-align: center;
-            padding:10px;
-    
-            form {
-                margin:36px auto 10px;
-                width:100%;
-              }
-        }
-    
-        &__video {
-            max-width:unset;
-            text-align: center;
-            padding:10px;
-
-            video{
-                width:100%;
-            }    
-        }
+  .usps {
+    &__container {
+      margin: 0px auto;
+      flex-direction: column;
     }
 
-    .contact {
-        &__socialiconslist {
-            width:100%;
-            flex-wrap: wrap;
+    &__card {
+      width: 100%;
+      min-height: 268px;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      flex-direction: column;
+    }
+  }
 
-            
-            li {
-                .badge_button{
-                    margin:10px 10px;
-                }
-            }
-        }
+  .newsletter {
+    padding: 20px 0px;
+
+    &__container {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: $sectionPaddingPTablet;
     }
 
-    .footer {
-    
-        &__list {
-            flex-wrap: wrap;
+    &__form {
+      max-width: 100%;
+      text-align: center;
+      padding: 10px;
 
-            li {
-                margin:0px 0px 20px;
-
-                a {
-                    margin:0px 20px 20px;
-                }
-            }
-        }
+      form {
+        margin: 36px auto 10px;
+        width: 100%;
+      }
     }
 
+    &__video {
+      max-width: unset;
+      text-align: center;
+      padding: 10px;
+
+      video {
+        width: 100%;
+      }
+    }
+  }
+
+  .contact {
+    &__socialiconslist {
+      width: 100%;
+      flex-wrap: wrap;
+
+      li {
+        .badge_button {
+          margin: 10px 10px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    &__list {
+      flex-wrap: wrap;
+
+      li {
+        margin: 0px 0px 20px;
+
+        a {
+          margin: 0px 20px 20px;
+        }
+      }
+    }
+  }
 }
